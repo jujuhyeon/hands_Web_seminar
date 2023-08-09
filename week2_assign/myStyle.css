@@ -1,0 +1,46 @@
+.todoContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+  }
+  .todo {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid red;
+    margin: 15px 0;
+  }
+  .todoText {
+    margin-left: 5px;
+    width: 85%;
+  }
+  .setPin {
+    cursor: pointer;
+  }
+  .trash {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .done {
+    text-decoration: line-through;
+  }
+
+  .setted {  /*고정할 경우 그림자를 줘서 고정 여부를 확인*/
+    text-shadow: 4px 2px 2px black;
+  }
+  
+  .hide {
+    display: none;
+  } 
+  .boxes {
+    display: flex;
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    background: blue;
+  } 
+  

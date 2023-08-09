@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="myStyle.css" />
+  </head>
+  <body>
+   <h1>할 일</h1>
+   <div class = "todoContainer">
+    <div class="todo">  
+        <input class="checkbox" type="checkbox"/>
+        <div class="todoText">딥러닝 강의듣기</div>
+        <div class="setPin">📌</div>
+        <div class="trash">🗑️</div>
+    </div>
+
+    <div class="todo">  
+        <input class="checkbox" type="checkbox"/>
+        <div class="todoText">저녁약속</div>
+        <div class="setPin">📌</div>
+        <div class="trash">🗑️</div>
+    </div> 
+   </div>
+
+   <h2>할 일 또 생겼다!</h2>
+    <form>
+      <input
+        type="text"
+        id="newTodoText"
+        style="width: 150px"
+        placeholder="새로운 할 일"
+      />
+      <input type="submit" id="submitBtn" value="추가" />
+    </form>
+
+  </body>
+  <script src="myScript.js"></script>
+</html>
